@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>瀑布流</title>
+	<style type="text/css">
+		*{
+			padding:0px;
+			margin:0px;
+			list-style:none;			
+		}
+		.wrapper{
+			width:1040px;
+			min-height:200px;
+			background-color:#fff;
+			margin:0 auto;
+			top:20px;
+			position:relative;
+			overflow-y:visible;
+			display:block;
+		}		
+		.wrapper .box{
+			width:228px;
+			min-height:50px;
+			position:absolute;
+			margin:0px 5px;
+			top:0px;
+			left:0px;
+			background-color:#f8f8f8;
+			margin-bottom:20px;
+			padding:11px;
+			border:1px solid #e2e2e2;
+			box-sizing:border-box;
+		}
+		.bot{
+			position:fixed;
+			bottom:10px;
+			height:30px;
+			left: 50%;
+			line-height:30px;
+			display:block;
+			border:1px solid #888;
+			padding:10px;
+			background-color:#fff;
+		}
+		a{
+			width:100%;
+			min-height:50px;
+			display:block;
+			overflow:hidden;
+			color:#aaa;
+		}
+		p{
+			font-size:14px;
+			color:#888;
+			margin-top:5px;
+			padding:3px;
+			border-top:1px  dotted #888;
+			word-break: break-all;
+		}
+	</style>
+</head>
+<body>
+<div class="wrapper"></div>
+<script type="text/javascript" src="js/warterfall.js?id=11"></script>
+</body>
+</html>
